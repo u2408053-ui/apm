@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "studentUid": "23CS001",
+    "title": "Web Development Workshop",
+    "category": "Technical",
+    "date": "2026-07-15",
+    "description": "Participated in a hands-on workshop covering modern web development technologies.",
+    "pointsClaimed": 5,
+    "pointsApproved": 5,
+    "status": "Approved"
+  },
+  {
+    "id": 2,
+    "studentUid": "23CS001",
+    "title": "Kho-Kho Championship",
+    "category": "Sports",
+    "date": "2026-07-20",
+    "description": "Participated in the inter-college Kho-Kho championship.",
+    "pointsClaimed": 10,
+    "pointsApproved": 10,
+    "status": "Approved"
+  },
+  {
+    "id": 3,
+    "studentUid": "23CS001",
+    "title": "Python Coding Competition",
+    "category": "Technical",
+    "date": "2026-07-28",
+    "description": "Participated in a competitive programming event based on Python.",
+    "pointsClaimed": 8,
+    "pointsApproved": 8,
+    "status": "Approved"
+  },
+  {
+    "id": 4,
+    "studentUid": "23CS001",
+    "title": "Community Clean-up Drive",
+    "category": "Social Service",
+    "date": "2026-08-02",
+    "description": "Participated in a community clean-up and environmental awareness programme.",
+    "pointsClaimed": 6,
+    "pointsApproved": 4,
+    "status": "Partially Approved"
+  },
+  {
+    "id": 5,
+    "studentUid": "23CS001",
+    "title": "College Cultural Fest",
+    "category": "Cultural",
+    "date": "2026-08-10",
+    "description": "Participated in the annual college cultural festival.",
+    "pointsClaimed": 5,
+    "pointsApproved": 5,
+    "status": "Approved"
+  },
+  {
+    "id": 6,
+    "studentUid": "23CS001",
+    "title": "Leadership Training Programme",
+    "category": "Leadership",
+    "date": "2026-08-18",
+    "description": "Completed a student leadership and team-building programme.",
+    "pointsClaimed": 7,
+    "pointsApproved": 0,
+    "status": "Pending"
+  }
+]
