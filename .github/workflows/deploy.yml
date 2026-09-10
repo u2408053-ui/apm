@@ -3,7 +3,6 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
 permissions:
@@ -32,11 +31,14 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: activity-points-management/package-lock.json
 
       - name: Install dependencies
+        working-directory: activity-points-management
         run: npm ci
 
-      - name: Build
+      - name: Build React application
+        working-directory: activity-points-management
         run: npm run build
 
       - name: Setup Pages
@@ -45,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist"
+          path: "./activity-points-management/dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
